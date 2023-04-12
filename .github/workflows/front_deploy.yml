@@ -14,7 +14,9 @@ jobs:
           cd ./front
           npm install
           CI=false
+          ls
           npm run build
+          ls
       - name: Transport build
         env:
           SSH_PEM_FILE: ${{ secrets.FRONT_PEM }}
