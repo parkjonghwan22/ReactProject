@@ -141,20 +141,17 @@ export const Abc = ({ response }) => {
           );
         }, midi.tracks[0].notes).start(0);
 
-        // Start the Tone.Transport and set it to stop after the MIDI file's duration
         Tone.Transport.start();
         Tone.Transport.stop(`+${midi.duration}m`);
 
         setIsPlaying(true);
 
-        // Stop the transport after the MIDI file's duration in milliseconds
         setTimeout(() => {
           Tone.Transport.cancel();
           Tone.Transport.stop();
           setIsPlaying(false);
         }, Tone.Time(midi.duration).toMilliseconds());
 
-        // Stop the transport after a certain period of time (e.g., 30 seconds)
         setTimeout(() => {
           Tone.Transport.cancel();
           Tone.Transport.stop();
