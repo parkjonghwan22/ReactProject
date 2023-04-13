@@ -187,8 +187,28 @@ export const Abc = ({ response }) => {
         <div id="paper"></div>
       </Abclayout>
       <canvas ref={canvasRef} style={{ display: "none" }} />
-      <button onClick={downloadImage}>Download Image</button>
-      <button onClick={downloadMidi}>Play Sound</button>
+      <button
+        onClick={downloadImage}
+        style={{
+          border: "1px solid #fff",
+          color: "#fff",
+          padding: "5px",
+          background: "black",
+        }}
+      >
+        Download Image
+      </button>
+      <button
+        onClick={downloadMidi}
+        style={{
+          border: "1px solid #fff",
+          color: "#fff",
+          padding: "5px",
+          background: "black",
+        }}
+      >
+        Play Sound
+      </button>
     </>
   );
 };
