@@ -26,6 +26,33 @@ export const Abclayout = styled.div`
   }
 `;
 
+export const Playbutton = styled.button`
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 10px 7px;
+  background: black;
+  margin-top: 5px;
+  box-sizing: border-box;
+  width: 120px;
+  height: 38px;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid yellow;
+    color: yellow;
+  }
+`;
+
+export const buttonLine = styled.div`
+  margin-top: 5px;
+  height: 38px;
+  line-height: 38px;
+  display: inline-block;
+  border-left: 1px solid #fff;
+  color: #fff;
+  background: black;
+`;
+
 export const Abc = ({ response }) => {
   const canvasRef = useRef(null);
 
@@ -187,51 +214,11 @@ export const Abc = ({ response }) => {
         <div id="paper"></div>
       </Abclayout>
       <canvas ref={canvasRef} style={{ display: "none" }} />
-      <div
-        style={{
-          marginTop: "5px",
-          borderLeft: "1px solid #fff",
-          color: "#fff",
-          background: "black",
-          width: "360px",
-          height: "38px",
-          lineHeight: "38px",
-        }}
-      >
-        -
-      </div>
-      <button
-        onClick={downloadImage}
-        style={{
-          border: "1px solid #fff",
-          color: "#fff",
-          padding: "10px 7px",
-          background: "black",
-          marginTop: "5px",
-          boxSizing: "border-box",
-          width: "120px",
-          height: "38px",
-        }}
-      >
-        Download Image
-      </button>
-      <div />
-      <button
-        onClick={downloadMidi}
-        style={{
-          border: "1px solid #fff",
-          color: "#fff",
-          padding: "10px 7px",
-          background: "black",
-          marginTop: "5px",
-          boxSizing: "border-box",
-          width: "120px",
-          height: "38px",
-        }}
-      >
-        Play Sound
-      </button>
-      <div />
+      <buttonLine>------</buttonLine>
+      <Playbutton onClick={downloadImage}>Download Image</Playbutton>
+      <buttonLine>------</buttonLine>
+      <Playbutton onClick={downloadMidi}>Play Sound</Playbutton>
+      <buttonLine>------</buttonLine>
     </>
   );
 };
