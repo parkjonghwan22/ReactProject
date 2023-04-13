@@ -192,8 +192,11 @@ export const Abc = ({ response }) => {
         style={{
           border: "1px solid #fff",
           color: "#fff",
-          padding: "5px",
+          padding: "10px 5px",
           background: "black",
+          marginTop: "5px",
+          marginRight: "5px",
+          marginLeft: "400px",
         }}
       >
         Download Image
@@ -203,8 +206,9 @@ export const Abc = ({ response }) => {
         style={{
           border: "1px solid #fff",
           color: "#fff",
-          padding: "5px",
+          padding: "10px 5px",
           background: "black",
+          marginTop: "5px",
         }}
       >
         Play Sound
