@@ -51,7 +51,6 @@ export const buttonLine = styled.div`
   display: inline-block;
   border-left: 1px solid #fff;
   color: #fff;
-  background: black;
 `;
 
 export const Abc = ({ response }) => {
