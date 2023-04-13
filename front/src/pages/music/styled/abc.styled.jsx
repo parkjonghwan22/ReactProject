@@ -187,6 +187,19 @@ export const Abc = ({ response }) => {
         <div id="paper"></div>
       </Abclayout>
       <canvas ref={canvasRef} style={{ display: "none" }} />
+      <div
+        style={{
+          marginTop: "5px",
+          borderLeft: "1px solid #fff",
+          color: "#fff",
+          background: "black",
+          width: "360px",
+          height: "38px",
+          lineHeight: "38px",
+        }}
+      >
+        -
+      </div>
       <button
         onClick={downloadImage}
         style={{
@@ -195,8 +208,6 @@ export const Abc = ({ response }) => {
           padding: "10px 7px",
           background: "black",
           marginTop: "5px",
-          marginRight: "55px",
-          marginLeft: "410px",
           boxSizing: "border-box",
           width: "120px",
           height: "38px",
@@ -204,6 +215,7 @@ export const Abc = ({ response }) => {
       >
         Download Image
       </button>
+      <div />
       <button
         onClick={downloadMidi}
         style={{
@@ -219,6 +231,7 @@ export const Abc = ({ response }) => {
       >
         Play Sound
       </button>
+      <div />
     </>
   );
 };
