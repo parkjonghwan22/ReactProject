@@ -195,10 +195,10 @@ export const Abc = ({ response }) => {
           padding: "10px 7px",
           background: "black",
           marginTop: "5px",
-          marginRight: "15px",
+          marginRight: "55px",
           marginLeft: "410px",
           boxSizing: "border-box",
-          width: "113px",
+          width: "120px",
           height: "38px",
         }}
       >
@@ -213,7 +213,7 @@ export const Abc = ({ response }) => {
           background: "black",
           marginTop: "5px",
           boxSizing: "border-box",
-          width: "113px",
+          width: "120px",
           height: "38px",
         }}
       >
