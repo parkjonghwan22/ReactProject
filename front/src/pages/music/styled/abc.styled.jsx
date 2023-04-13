@@ -46,6 +46,7 @@ export const Playbutton = styled.button`
 export const buttonLine = styled.div`
   margin-top: 5px;
   height: 38px;
+  width: 300px;
   line-height: 38px;
   display: inline-block;
   border-left: 1px solid #fff;
