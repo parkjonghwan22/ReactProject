@@ -27,4 +27,4 @@ jobs:
           chmod 400 backend.pem
           mkdir -p ~/.ssh
           ssh-keyscan -t rsa ${EC2_HOST} >> ~/.ssh/known_hosts
-          scp -i backend.pem -r ./back* ${EC2_USER}@${EC2_HOST}:/home/ubuntu/www
+          scp -i backend.pem -r ./back/* ${EC2_USER}@${EC2_HOST}:/home/ubuntu/www
