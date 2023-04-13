@@ -31,7 +31,6 @@ export const Playbutton = styled.button`
   color: #fff;
   padding: 10px 7px;
   background: black;
-  margin-top: 5px;
   box-sizing: border-box;
   width: 120px;
   height: 38px;
@@ -43,14 +42,53 @@ export const Playbutton = styled.button`
   }
 `;
 
-export const buttonLine = styled.div`
-  margin-top: 5px;
+export const ButtonLine_1 = styled.div`
   height: 38px;
   width: 300px;
   line-height: 38px;
-  display: inline-block;
+  box-sizing: border-box;
+
+  & > div {
+    width: 100%;
+    height: 19px;
+    border-bottom: 1px solid #fff;
+  }
+`;
+
+export const ButtonLine_2 = styled.div`
+  height: 38px;
+  width: 200px;
+  line-height: 38px;
+  box-sizing: border-box;
+
+  & > div {
+    width: 100%;
+    height: 19px;
+    border-bottom: 1px solid #fff;
+  }
+`;
+
+export const ButtonLine_3 = styled.div`
+  height: 38px;
+  width: 360px;
+  line-height: 38px;
+  box-sizing: border-box;
+
+  & > div {
+    width: 100%;
+    height: 19px;
+    border-bottom: 1px solid #fff;
+  }
+`;
+
+export const ButtonForm = styled.div`
+  margin-top: 10px;
   border-left: 1px solid #fff;
-  color: #fff;
+  border-right: 1px solid #fff;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  height: 38px;
 `;
 
 export const Abc = ({ response }) => {
@@ -214,11 +252,19 @@ export const Abc = ({ response }) => {
         <div id="paper"></div>
       </Abclayout>
       <canvas ref={canvasRef} style={{ display: "none" }} />
-      <buttonLine>------</buttonLine>
-      <Playbutton onClick={downloadImage}>Download Image</Playbutton>
-      <buttonLine>------</buttonLine>
-      <Playbutton onClick={downloadMidi}>Play Sound</Playbutton>
-      <buttonLine>------</buttonLine>
+      <ButtonForm>
+        <ButtonLine_1>
+          <div />
+        </ButtonLine_1>
+        <Playbutton onClick={downloadImage}>Download Image</Playbutton>
+        <ButtonLine_2>
+          <div />
+        </ButtonLine_2>
+        <Playbutton onClick={downloadMidi}>Play Sound</Playbutton>
+        <ButtonLine_3>
+          <div />
+        </ButtonLine_3>
+      </ButtonForm>
     </>
   );
 };
