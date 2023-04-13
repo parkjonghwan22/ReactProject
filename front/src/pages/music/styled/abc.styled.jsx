@@ -192,11 +192,14 @@ export const Abc = ({ response }) => {
         style={{
           border: "1px solid #fff",
           color: "#fff",
-          padding: "10px 5px",
+          padding: "10px 7px",
           background: "black",
           marginTop: "5px",
-          marginRight: "5px",
-          marginLeft: "400px",
+          marginRight: "15px",
+          marginLeft: "410px",
+          boxSizing: "border-box",
+          width: "113px",
+          height: "38px",
         }}
       >
         Download Image
@@ -206,9 +209,12 @@ export const Abc = ({ response }) => {
         style={{
           border: "1px solid #fff",
           color: "#fff",
-          padding: "10px 5px",
+          padding: "10px 7px",
           background: "black",
           marginTop: "5px",
+          boxSizing: "border-box",
+          width: "113px",
+          height: "38px",
         }}
       >
         Play Sound
