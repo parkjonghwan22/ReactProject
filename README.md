@@ -45,21 +45,22 @@ https://jjerry.store/
 
 <br><br>
 
-> ## 5. 게시글 작
+> ## 5. 게시글 작성
 
-
-- 
+- 사용자들이 자유롭게 게시글을 작성, 수정, 삭제할 수 있습니다. 
 
 <br><br>
 
 --- 
 
-### 🛠️ 작업 환경
+### 🛠️ 기술 스택
 
-## 기술 스택
+<img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"> <img src="https://img.shields.io/badge/Express-black?style=for-the-badge&logo=&logoColor=black"> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=MySQL&logoColor=black">
 
-<img src="https://img.shields.io/badge/nextjs-000?style=for-the-badge&logo=nextdotjs&logoColor=white"> <img src="https://img.shields.io/badge/nestjs-E0234E?style=for-the-badge&logo=nestjs&logoColor=white"> <img src="https://img.shields.io/badge/typescript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"> <img src="https://img.shields.io/badge/solidity-363636?style=for-the-badge&logo=solidity&logoColor=white"> <img src="https://img.shields.io/badge/tailwindcss-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"> <img src="https://img.shields.io/badge/reactquery-FF4154?style=for-the-badge&logo=reactquery&logoColor=white"> <img src="https://img.shields.io/badge/amplify-FF9900?style=for-the-badge&logo=awsamplify&logoColor=white"> <img src="https://img.shields.io/badge/heroku-430098?style=for-the-badge&logo=heroku&logoColor=white"> <img src="https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white"> <img src="https://img.shields.io/badge/mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white">  <img src="https://img.shields.io/badge/ipfs-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white"> <img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"> 
+---
 
+### 🧑🏻‍💻 Member
 
-## API
- <img src="https://img.shields.io/badge/eden_ai-412991?style=for-the-badge&logo=openai&logoColor=white"> <img src="https://img.shields.io/badge/coingecko_api-00874D?style=for-the-badge&logo=&logoColor=white"> <img src="https://img.shields.io/badge/pinata_api-E4405F?style=for-the-badge&logo=&logoColor=white">
+팀장 장경호 <br>
+팀원 박종환 <br>
+팀원 이세욱 <br>
