@@ -2,7 +2,7 @@
 ## GptMusic
 
 
-https://github.com/parkjonghwan22/project3/assets/118948122/868720c9-e35d-413b-bdd9-7a0d8813640f
+![GptGif](https://github.com/parkjonghwan22/project3/assets/118948122/01f64a9a-f828-4e00-becd-cdcd544d3014)
 
 https://jjerry.store/
 
